@@ -5,6 +5,6 @@ hashtag = "#"
 stair = 0
 loop do
     puts (hashtag * stair).rjust(number)
-    break if(number == stair)
+    break if number == stair
     stair = stair + 1
 end

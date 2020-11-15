@@ -3,10 +3,10 @@ string = gets.chomp
 sl = string.length.to_i
 x = 0
 stringOut = ""
-if sl != x ;then
+if sl != x
     loop do
-        if string[x] != " " ;then
-            if x.even? ;then
+        if string[x] != " "
+            if x.even?
                 stringOut += string[x].downcase
                 x = x.succ
             else
