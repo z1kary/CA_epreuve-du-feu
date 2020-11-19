@@ -40,7 +40,7 @@ def rectangle(square_to_find, data)
         while column < data[line].count
             if data[line][column] == square_to_find[0][0]
                 if is_it_a_match?(square_to_find, data, line, column)
-                    puts "#{line}, #{column}"
+                    puts "#{column}, #{line}"
                     return true
                 end
             end
